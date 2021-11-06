@@ -107,8 +107,8 @@ if($res){
                              
                           
 
-    $mail->Username = 'clgproject44198@gmail.com'; // YOUR gmail email
-    $mail->Password = 'death44198'; // YOUR gmail password
+    $mail->Username = '####YOUR gmail id'; // YOUR gmail email
+    $mail->Password = '####YOUR gmail password'; // YOUR gmail password
     $mail->Body="
     Hii!! 
     In order to reset your password click on the link below:
@@ -117,7 +117,7 @@ if($res){
     
     
     with regards,
-    nina williams";
+    Site team";
             $mail->send();
             echo "<script>
             document.getElementById('alert').style.visibility='visible';
