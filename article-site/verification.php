@@ -65,8 +65,8 @@ try{
                              
                           
 
-    $mail->Username = 'clgproject44198@gmail.com'; // YOUR gmail email
-    $mail->Password = 'death44198'; // YOUR gmail password
+    $mail->Username = '####YOUR gmail id'; // YOUR gmail email
+    $mail->Password = '####YOUR gmail password'; // YOUR gmail password
     $mail->Body="
     Hii!! 
     In order to verify your email click on the link below:
